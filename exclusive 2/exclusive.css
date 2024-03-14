@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.full {
+  background-image: url(spider-bg.jpg);
+  height: 100vh;
+  width: 98.5vw;
+  background-size: cover;
+}
+
+.top {
+  height: 70px;
+  background-color: rgba(28, 25, 25, 0.74);
+}
+
+
+.center {
+  background-color: rgba(28, 25, 25, 0.538);
+  height: 300px;
+  width: 550px;
+  position: relative;
+  top: 100px;
+  left: 320px;
+  border-radius: 20px;
+}
+input {
+  background-color: rgba(0, 0, 0, 0.641);
+  height: 60px;
+  width: 350px;
+  border: 0px;
+  position: relative;
+  top: 180px;
+  left: 100px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  font-size: larger;
+}
+#a {
+  height: 200px;
+  position: relative;
+  top: -570px;
+  right: -990px;
+}
+#b {
+  height: 400px;
+  position: relative;
+  top: -400px;
+  left: -190px;
+}
+#c {
+  height: 350px;
+  position: relative;
+  top: -330px;
+  left: 90px;
+}

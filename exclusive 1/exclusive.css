@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: bisque; */
+  background-image: url(wp1703730-the-avengers-wallpapers.jpg);
+  background-size: contain;
+}
+.container {
+  /* margin: 20px; */
+  background-color: rgba(152, 154, 155, 0.488);
+  position: relative;
+  top: 28px;
+  left: 30px;
+  height: 90%;
+  width: 95%;
+  border-radius: 15px;
+}
+.top,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  /* margin-top: 20px; */
+}
+.container img {
+  height: 150px;
+  border-radius: 20px;
+  /* margin-top: 20px; */
+}
+.bg-blur {
+  background-color: rgba(152, 154, 155, 0.856);
+  border-radius: 20px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+}
+#moonKnight {
+  width: 350px;
+  position: relative;
+  top: -20px;
+}
+#blur-text {
+  position: relative;
+  top: -40px;
+}
+#shang {
+  height: 100px;
+  position: relative;
+  border-radius: 0px;
+  /* right: -200px; */
+}
+#bottom-blur {
+  height: 200px;
+  position: relative;
+  top: -5px;
+  left: -10px;
+}
+
+#img1 {
+  position: relative;
+  top: 35px;
+  left: 40px;
+}
+
+#img2 {
+  position: relative;
+  right: 50px;
+  bottom: -20px;
+}
+
+#blur-text-2 {
+  position: relative;
+  top: 15px;
+}
